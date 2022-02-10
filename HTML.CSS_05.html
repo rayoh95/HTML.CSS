@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/toSendMessage" method="post">
+        <div>
+            <label for="text">텍스트 필드</label>   <!-- label 요소는 input 태그가 여러개 있을 때 input 요소가 어떤 요소인지 설명해주기 위해 있는 요소. 때문에 input 과 한 쌍으로 지정이 되며, id 값과 동일한 값이 for 에 들어가야 한다. -->
+            <input type="text" id="text" />
+        </div>
+        <div>
+            <label for="checkbox">체크박스</label>
+            <input type="checkbox" id="checkbox" />
+        </div>
+        <div>
+            <label for="radio">라이도 버튼</label>
+            <input type="radio" id="radio" />
+        </div>
+        <div>
+            <label for="search">검색</label>
+            <input type="search" id="searxh" />
+        </div>
+        <div>
+            <label for="textarea">텍스트 영역</label>
+            <textarea type="textarea" id="textarea"></textarea>
+        </div>
+    </form>
+</body>
+</html>
